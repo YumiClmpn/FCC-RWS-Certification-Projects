@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SURVEY FORM</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">XIXI SERVICES SURVEY</h1>
+      <p id="description">What do you think of our services so far?</p>
+    </header>
+    <main>
+      <form id="survey-form">
+<hr>
+        <label for="name" id="name-label"> Name: </label>
+        <input id="name" type="text" placeholder="Momo Hirai" required></input>
+<hr>
+        <label for="email" id="email-label"> Email: <label>
+        <input id="email" type="email" placeholder="momo.hirai@twice.com" required ></input>
+<hr>
+        <label for="number" id="number-label"> Age: </label>
+        <input id="number" type="number" min="12" max="80" placeholder="Age"  required ></input>
+<hr>
+        <label for="gender"> Gender: </label>
+        <select id="gender">
+          <option> He </option>
+          <option> She </option>
+          <option> They </option>
+          <option> Prefer not to say </option>
+        </select>
+<hr>
+        <label> Where did you find out about us? <label>
+        <input type="radio" name="refer-group" id="friend" value="0"> Friend </input>
+        <input type="radio" name="refer-group" id="facebook" value="1"> Facebook </input>
+        <input type="radio" name="refer-group" id="twitter" value="2"> Twitter </input>
+        <input type="radio" name="refer-group" id="tiktok" value="3"> TikTok </input>
+        <input type="radio" name="refer-group" id="google" value="4"> Google </input>
+        <input type="radio" name="refer-group" id="youtube" value="5"> YouTube </input>
+<hr>
+        <label for="dropdown"> Role as a User: </label>
+        <select id="dropdown">
+          <option> Junior High Student </option>
+          <option> Senior High Student </option>
+          <option> College Student </option>
+          <option> Graduate Student </option>
+          <option> Parent (For my Kids) </option>
+          <option> Others </option>
+        </select>
+<hr>
+        <label> What do you like about our services? <label>
+        <input type="checkbox" name="pros" id="instruction" value="0"> Personalized instruction </input>
+        <input type="checkbox" name="pros" id="effectiveness" value="1"> Increased efficiency and effectiveness of learning </input>
+        <input type="checkbox" name="pros" id="performance" value="2"> Improved academic performance </input>
+        <input type="checkbox" name="pros" id="motivation" value="3"> Greater motivation </input>
+        <input type="checkbox" name="pros" id="confidence" value="4"> Increased self-confidence </input>
+        <input type="checkbox" name="pros" id="feedback" value="5"> Personalized feedback </input>
+        <input type="checkbox" name="pros" id="support" value="6"> Support for special needs </input>
+        <input type="checkbox" name="pros" id="flexibility" value="7"> Flexibility </input>
+        <input type="checkbox" name="pros" id="knowledge" value="8"> Access to specialized knowledge </input>
+        <input type="checkbox" name="pros" id="less-stress" value="9"> Reduced stress </input>
+<hr>
+        <label> How can we improve? </label>
+        <textarea> Please tell us how we can improve our services. </textarea>
+<hr>
+        <input id="submit" type="submit">
+      </form>
+    </main>
+  </body>
+</html>
